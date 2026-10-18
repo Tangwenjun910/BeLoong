@@ -23,56 +23,64 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 20.0,
-                  "per_level_above_first": 25.0
+                  "base": 8.0,
+                  "per_level_above_first": 2.8
                 },
                 "values": [
-                  20,
-                  26,
-                  33,
-                  45
+                  8,
+                  10,
+                  12,
+                  15,
+                  18,
+                  22
                 ]
               },
               "center_force": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.2,
-                  "per_level_above_first": 0.25
+                  "base": 0.1,
+                  "per_level_above_first": 0.03
                 },
                 "values": [
+                  0.1,
+                  0.12,
+                  0.14,
+                  0.16,
                   0.2,
-                  0.28,
-                  0.36,
-                  0.45
+                  0.25
                 ]
               },
               "outer_force": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.025,
-                  "per_level_above_first": 0.025
+                  "base": 0.015,
+                  "per_level_above_first": 0.005
                 },
                 "values": [
+                  0.015,
+                  0.018,
+                  0.02,
                   0.025,
-                  0.032,
-                  0.04,
-                  0.05
+                  0.03,
+                  0.04
                 ]
               },
               "damage": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 8.0,
-                  "per_level_above_first": 145.846
+                  "base": 3.1,
+                  "per_level_above_first": 150.7
                 },
                 "values": [
-                  8,
-                  12,
-                  30.769,
-                  153.846
+                  3.1,
+                  7.7,
+                  15.4,
+                  30.8,
+                  76.9,
+                  153.8
                 ]
               },
               "damage_radius": 1.5,
@@ -80,14 +88,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 6.0,
-                  "per_level_above_first": 9.0
+                  "base": 4.0,
+                  "per_level_above_first": 2.0
                 },
                 "values": [
+                  4,
                   6,
                   8,
-                  11,
-                  15
+                  10,
+                  12,
+                  14
                 ]
               },
               "lifespan": 130.0,
@@ -107,14 +117,16 @@
       "type": "minecraft:lookup",
       "fallback": {
         "type": "minecraft:linear",
-        "base": 10.0,
-        "per_level_above_first": 8.0
+        "base": 8.0,
+        "per_level_above_first": 2.8
       },
       "values": [
+        8,
         10,
         12,
-        15,
-        18
+        14,
+        18,
+        22
       ]
     },
     "animations": {
@@ -153,7 +165,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 4,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -165,6 +177,8 @@
         10.0,
         50.0,
         100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }

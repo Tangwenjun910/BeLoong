@@ -10,65 +10,80 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 1200.0,
-                  "per_level_above_first": 400.0
+                  "base": 400.0,
+                  "per_level_above_first": 120.0
                 },
                 "values": [
-                  1200,
-                  1600,
-                  2000
+                  400,
+                  500,
+                  600,
+                  700,
+                  850,
+                  1000
                 ]
               },
               "damage_reduction": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.4,
-                  "per_level_above_first": 0.2
+                  "base": 0.15,
+                  "per_level_above_first": 0.1
                 },
                 "values": [
-                  0.4,
-                  0.6,
-                  0.8
+                  0.15,
+                  0.25,
+                  0.35,
+                  0.45,
+                  0.55,
+                  0.65
                 ]
               },
               "absorption_health": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 8.0,
-                  "per_level_above_first": 4.0
+                  "base": 4.0,
+                  "per_level_above_first": 5.2
                 },
                 "values": [
+                  4,
                   8,
                   12,
-                  16
+                  16,
+                  22,
+                  30
                 ]
               },
               "bonus_health": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 4.0,
-                  "per_level_above_first": 2.0
+                  "base": 2.0,
+                  "per_level_above_first": 2.6
                 },
                 "values": [
+                  2,
                   4,
                   6,
-                  8
+                  8,
+                  11,
+                  15
                 ]
               },
               "regeneration_interval": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 25.0,
-                  "per_level_above_first": -13.0
+                  "base": 40.0,
+                  "per_level_above_first": -5.6
                 },
                 "values": [
+                  40,
+                  30,
                   25,
-                  12,
-                  6
+                  20,
+                  16,
+                  12
                 ]
               },
               "regeneration_amount": 1
@@ -155,8 +170,8 @@
     },
     "can_move_while_casting": false,
     "cast_time": 60,
-    "cooldown": 300,
-    "initial_mana_cost": 2,
+    "cooldown": 1200,
+    "initial_mana_cost": 4,
     "sound": {
       "end": "minecraft:block.beacon.deactivate"
     }
@@ -183,7 +198,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 3,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -194,6 +209,9 @@
       "values": [
         10.0,
         50.0,
+        100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }

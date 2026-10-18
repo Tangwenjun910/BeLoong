@@ -49,13 +49,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 300.0,
-                  "per_level_above_first": 2300.0
+                  "base": 50.0,
+                  "per_level_above_first": 1350.0
                 },
                 "values": [
-                  300,
-                  1200,
-                  2600
+                  50,
+                  100,
+                  200,
+                  500,
+                  1000,
+                  1400
                 ]
               },
               "damage_type": "star_dragon:supernova",
@@ -63,13 +66,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 50.0,
-                  "per_level_above_first": 50.0
+                  "base": 20.0,
+                  "per_level_above_first": 7.0
                 },
                 "values": [
-                  50,
-                  70,
-                  100
+                  20,
+                  26,
+                  32,
+                  38,
+                  46,
+                  55
                 ]
               },
               "blindness_duration": 200,
@@ -135,7 +141,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 3,
+    "maximum_level": 6,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -146,6 +152,9 @@
       "values": [
         10.0,
         50.0,
+        100.0,
+        150.0,
+        200.0,
         250.0
       ]
     }
