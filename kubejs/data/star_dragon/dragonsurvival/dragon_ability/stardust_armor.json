@@ -7,84 +7,34 @@
             {
               "effect_type": "star_dragon:stardust_armor",
               "duration": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 1200.0,
-                  "per_level_above_first": 800.0
-                },
-                "values": [
-                  1200,
-                  1600,
-                  1700,
-                  1800,
-                  1900,
-                  2000
-                ]
+                "type": "minecraft:linear",
+                "base": 1200,
+                "per_level_above_first": 400
               },
               "damage_reduction": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 0.4,
-                  "per_level_above_first": 0.4
-                },
-                "values": [
-                  0.4,
-                  0.6,
-                  0.65,
-                  0.7,
-                  0.75,
-                  0.8
-                ]
+                "type": "minecraft:linear",
+                "base": 0.4,
+                "per_level_above_first": 0.2
               },
               "absorption_health": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 8.0,
-                  "per_level_above_first": 8.0
-                },
-                "values": [
-                  8,
-                  12,
-                  13,
-                  14,
-                  15,
-                  16
-                ]
+                "type": "minecraft:linear",
+                "base": 8,
+                "per_level_above_first": 4
               },
               "bonus_health": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 4.0,
-                  "per_level_above_first": 4.0
-                },
-                "values": [
-                  4,
-                  6,
-                  6.5,
-                  7,
-                  7.5,
-                  8
-                ]
+                "type": "minecraft:linear",
+                "base": 4,
+                "per_level_above_first": 2
               },
               "regeneration_interval": {
                 "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 25.0,
-                  "per_level_above_first": -3.8
-                },
                 "values": [
                   25,
                   12,
-                  10,
-                  9,
-                  8,
-                  6
-                ]
+                  6,
+                  3
+                ],
+                "fallback": 1
               },
               "regeneration_amount": 1
             },
@@ -198,7 +148,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 6,
+    "maximum_level": 3,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -209,9 +159,6 @@
       "values": [
         10.0,
         50.0,
-        100.0,
-        150.0,
-        200.0,
         250.0
       ]
     }

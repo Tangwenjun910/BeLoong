@@ -9,36 +9,14 @@
             {
               "effect_type": "star_dragon:gravitational_field",
               "domain_radius": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 30.0,
-                  "per_level_above_first": 30.0
-                },
-                "values": [
-                  30,
-                  40,
-                  50,
-                  53,
-                  57,
-                  60
-                ]
+                "type": "minecraft:linear",
+                "base": 30,
+                "per_level_above_first": 10
               },
               "domain_duration": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 1000.0,
-                  "per_level_above_first": 1500.0
-                },
-                "values": [
-                  1000,
-                  1500,
-                  2000,
-                  2170,
-                  2330,
-                  2500
-                ]
+                "type": "minecraft:linear",
+                "base": 1000,
+                "per_level_above_first": 500
               },
               "refresh_interval": {
                 "type": "minecraft:linear",
@@ -108,60 +86,27 @@
                 {
                   "attribute": "generic.attack_damage",
                   "amount": {
-                    "type": "minecraft:lookup",
-                    "fallback": {
-                      "type": "minecraft:linear",
-                      "base": 10.0,
-                      "per_level_above_first": 60.0
-                    },
-                    "values": [
-                      10,
-                      30,
-                      50,
-                      57,
-                      63,
-                      70
-                    ]
+                    "type": "minecraft:linear",
+                    "base": 10,
+                    "per_level_above_first": 20
                   },
                   "operation": "add_value"
                 },
                 {
                   "attribute": "generic.attack_speed",
                   "amount": {
-                    "type": "minecraft:lookup",
-                    "fallback": {
-                      "type": "minecraft:linear",
-                      "base": 10.0,
-                      "per_level_above_first": 60.0
-                    },
-                    "values": [
-                      10,
-                      30,
-                      50,
-                      57,
-                      63,
-                      70
-                    ]
+                    "type": "minecraft:linear",
+                    "base": 10,
+                    "per_level_above_first": 20
                   },
                   "operation": "add_value"
                 },
                 {
                   "attribute": "dragonsurvival:dragon_ability_damage",
                   "amount": {
-                    "type": "minecraft:lookup",
-                    "fallback": {
-                      "type": "minecraft:linear",
-                      "base": 0.5,
-                      "per_level_above_first": 1.5
-                    },
-                    "values": [
-                      0.5,
-                      1,
-                      1.5,
-                      1.7,
-                      1.8,
-                      2
-                    ]
+                    "type": "minecraft:linear",
+                    "base": 0.5,
+                    "per_level_above_first": 0.5
                   },
                   "operation": "add_value"
                 },
@@ -251,7 +196,7 @@
   },
   "upgrade": {
     "upgrade_type": "dragonsurvival:dragon_growth",
-    "maximum_level": 6,
+    "maximum_level": 4,
     "growth_requirement": {
       "type": "minecraft:lookup",
       "fallback": {
@@ -263,8 +208,6 @@
         10.0,
         50.0,
         100.0,
-        150.0,
-        200.0,
         250.0
       ]
     }
