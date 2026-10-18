@@ -14,16 +14,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 24.0,
-                  "per_level_above_first": 4.8
+                  "base": 40.0,
+                  "per_level_above_first": 8.0
                 },
                 "values": [
-                  24,
-                  28,
-                  32,
-                  36,
                   40,
-                  48
+                  60,
+                  65,
+                  70,
+                  75,
+                  80
                 ]
               },
               "damage": {
@@ -48,16 +48,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 60.0,
-                  "per_level_above_first": 14.0
+                  "base": 100.0,
+                  "per_level_above_first": 8.0
                 },
                 "values": [
-                  60,
-                  70,
-                  80,
-                  90,
-                  110,
-                  130
+                  100,
+                  120,
+                  125,
+                  130,
+                  135,
+                  140
                 ]
               },
               "glow_amplifier": 0,
@@ -96,10 +96,10 @@
       },
       "values": [
         12,
-        14,
         16,
         18,
-        22,
+        21,
+        23,
         26
       ]
     },

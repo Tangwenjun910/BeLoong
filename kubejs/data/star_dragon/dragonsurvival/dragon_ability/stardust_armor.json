@@ -10,80 +10,80 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 400.0,
-                  "per_level_above_first": 120.0
+                  "base": 1200.0,
+                  "per_level_above_first": 160.0
                 },
                 "values": [
-                  400,
-                  500,
-                  600,
-                  700,
-                  850,
-                  1000
+                  1200,
+                  1600,
+                  1700,
+                  1800,
+                  1900,
+                  2000
                 ]
               },
               "damage_reduction": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.15,
-                  "per_level_above_first": 0.1
+                  "base": 0.4,
+                  "per_level_above_first": 0.08
                 },
                 "values": [
-                  0.15,
-                  0.25,
-                  0.35,
-                  0.45,
-                  0.55,
-                  0.65
+                  0.4,
+                  0.6,
+                  0.65,
+                  0.7,
+                  0.75,
+                  0.8
                 ]
               },
               "absorption_health": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 4.0,
-                  "per_level_above_first": 5.2
+                  "base": 8.0,
+                  "per_level_above_first": 1.6
                 },
                 "values": [
-                  4,
                   8,
                   12,
-                  16,
-                  22,
-                  30
+                  13,
+                  14,
+                  15,
+                  16
                 ]
               },
               "bonus_health": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 2.0,
-                  "per_level_above_first": 2.6
+                  "base": 4.0,
+                  "per_level_above_first": 0.8
                 },
                 "values": [
-                  2,
                   4,
                   6,
-                  8,
-                  11,
-                  15
+                  6.5,
+                  7,
+                  7.5,
+                  8
                 ]
               },
               "regeneration_interval": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 40.0,
-                  "per_level_above_first": -5.6
+                  "base": 25.0,
+                  "per_level_above_first": -3.8
                 },
                 "values": [
-                  40,
-                  30,
                   25,
-                  20,
-                  16,
-                  12
+                  12,
+                  10,
+                  9,
+                  8,
+                  6
                 ]
               },
               "regeneration_amount": 1
@@ -170,8 +170,8 @@
     },
     "can_move_while_casting": false,
     "cast_time": 60,
-    "cooldown": 1200,
-    "initial_mana_cost": 4,
+    "cooldown": 300,
+    "initial_mana_cost": 2,
     "sound": {
       "end": "minecraft:block.beacon.deactivate"
     }

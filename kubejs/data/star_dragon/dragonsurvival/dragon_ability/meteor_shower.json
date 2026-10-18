@@ -53,80 +53,80 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 20.0,
-                  "per_level_above_first": 196.0
+                  "base": 25.0,
+                  "per_level_above_first": 19.0
                 },
                 "values": [
-                  20,
-                  50,
-                  100,
-                  200,
-                  500,
-                  1000
+                  25,
+                  30,
+                  35,
+                  40,
+                  80,
+                  120
                 ]
               },
               "radius": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 20.0,
-                  "per_level_above_first": 6.0
+                  "base": 50.0,
+                  "per_level_above_first": 2.0
                 },
                 "values": [
-                  20,
-                  24,
-                  28,
-                  32,
-                  40,
-                  50
+                  50,
+                  52,
+                  54,
+                  56,
+                  58,
+                  60
                 ]
               },
               "count": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 15.0,
-                  "per_level_above_first": 9.0
+                  "base": 400.0,
+                  "per_level_above_first": 320.0
                 },
                 "values": [
-                  15,
-                  18,
-                  21,
-                  25,
-                  40,
-                  60
+                  400,
+                  700,
+                  1100,
+                  1500,
+                  1750,
+                  2000
                 ]
               },
               "duration": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 100.0,
-                  "per_level_above_first": 28.0
+                  "base": 240.0,
+                  "per_level_above_first": 20.0
                 },
                 "values": [
-                  100,
-                  120,
-                  140,
-                  160,
-                  200,
-                  240
+                  240,
+                  260,
+                  280,
+                  300,
+                  320,
+                  340
                 ]
               },
               "blast_radius": {
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 3.0,
-                  "per_level_above_first": 1.4
+                  "base": 10.0,
+                  "per_level_above_first": 2.0
                 },
                 "values": [
-                  3,
-                  4,
-                  5,
-                  6,
-                  8,
-                  10
+                  10,
+                  12,
+                  14,
+                  17,
+                  18,
+                  20
                 ]
               },
               "damage_type": "star_dragon:meteor_magic",
