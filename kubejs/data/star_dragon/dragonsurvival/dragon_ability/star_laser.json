@@ -54,16 +54,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.74,
-                  "per_level_above_first": 36.3
+                  "base": 1.0,
+                  "per_level_above_first": 36.0
                 },
                 "values": [
-                  0.74,
-                  1.85,
-                  3.7,
-                  7.41,
-                  18.52,
-                  37.04
+                  1,
+                  2,
+                  5,
+                  10,
+                  20,
+                  40
                 ]
               },
               "radius": {
@@ -71,7 +71,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 10.0,
-                  "per_level_above_first": 3.0
+                  "per_level_above_first": 15.0
                 },
                 "values": [
                   10,
@@ -87,14 +87,14 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 5.0,
-                  "per_level_above_first": 1.2
+                  "per_level_above_first": 6.0
                 },
                 "values": [
                   5,
                   7,
                   9,
                   10,
-                  10.5,
+                  10,
                   11
                 ]
               },
@@ -103,7 +103,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 40.0,
-                  "per_level_above_first": 32.0
+                  "per_level_above_first": 160.0
                 },
                 "values": [
                   40,
@@ -134,16 +134,16 @@
                 "type": "minecraft:lookup",
                 "fallback": {
                   "type": "minecraft:linear",
-                  "base": 0.74,
-                  "per_level_above_first": 36.3
+                  "base": 1.0,
+                  "per_level_above_first": 36.0
                 },
                 "values": [
-                  0.74,
-                  1.85,
-                  3.7,
-                  7.41,
-                  18.52,
-                  37.04
+                  1,
+                  2,
+                  5,
+                  10,
+                  20,
+                  40
                 ]
               },
               "radius": {
@@ -151,7 +151,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 10.0,
-                  "per_level_above_first": 3.0
+                  "per_level_above_first": 15.0
                 },
                 "values": [
                   10,
@@ -167,14 +167,14 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 5.0,
-                  "per_level_above_first": 1.2
+                  "per_level_above_first": 6.0
                 },
                 "values": [
                   5,
                   7,
                   9,
                   10,
-                  10.5,
+                  10,
                   11
                 ]
               },
@@ -183,7 +183,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 40.0,
-                  "per_level_above_first": 32.0
+                  "per_level_above_first": 160.0
                 },
                 "values": [
                   40,

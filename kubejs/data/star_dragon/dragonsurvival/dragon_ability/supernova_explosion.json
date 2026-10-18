@@ -67,7 +67,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 50.0,
-                  "per_level_above_first": 10.0
+                  "per_level_above_first": 50.0
                 },
                 "values": [
                   50,

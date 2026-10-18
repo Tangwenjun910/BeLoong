@@ -54,7 +54,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 25.0,
-                  "per_level_above_first": 19.0
+                  "per_level_above_first": 95.0
                 },
                 "values": [
                   25,
@@ -70,7 +70,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 50.0,
-                  "per_level_above_first": 2.0
+                  "per_level_above_first": 10.0
                 },
                 "values": [
                   50,
@@ -86,7 +86,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 400.0,
-                  "per_level_above_first": 320.0
+                  "per_level_above_first": 1600.0
                 },
                 "values": [
                   400,
@@ -102,7 +102,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 240.0,
-                  "per_level_above_first": 20.0
+                  "per_level_above_first": 100.0
                 },
                 "values": [
                   240,
@@ -118,7 +118,7 @@
                 "fallback": {
                   "type": "minecraft:linear",
                   "base": 10.0,
-                  "per_level_above_first": 2.0
+                  "per_level_above_first": 10.0
                 },
                 "values": [
                   10,
