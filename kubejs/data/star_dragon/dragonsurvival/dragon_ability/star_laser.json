@@ -51,20 +51,9 @@
               "effect_type": "star_dragon:star_laser",
               "damage_type": "star_dragon:star_laser",
               "harm": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 1.0,
-                  "per_level_above_first": 36.0
-                },
-                "values": [
-                  1,
-                  2,
-                  5,
-                  10,
-                  20,
-                  40
-                ]
+                "type": "minecraft:linear",
+                "base": 30,
+                "per_level_above_first": 10
               },
               "radius": {
                 "type": "minecraft:lookup",
@@ -131,20 +120,9 @@
             {
               "effect_type": "star_dragon:star_laser",
               "harm": {
-                "type": "minecraft:lookup",
-                "fallback": {
-                  "type": "minecraft:linear",
-                  "base": 1.0,
-                  "per_level_above_first": 36.0
-                },
-                "values": [
-                  1,
-                  2,
-                  5,
-                  10,
-                  20,
-                  40
-                ]
+                "type": "minecraft:linear",
+                "base": 30,
+                "per_level_above_first": 10
               },
               "radius": {
                 "type": "minecraft:lookup",
