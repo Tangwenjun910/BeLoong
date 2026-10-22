@@ -212,14 +212,5 @@
       ]
     }
   },
-  "usage_blocked": {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "flags": {
-        "is_on_ground": false
-      }
-    }
-  },
   "can_be_manually_disabled": true
 }

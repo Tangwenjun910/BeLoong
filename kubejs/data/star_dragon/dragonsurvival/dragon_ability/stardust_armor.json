@@ -162,14 +162,5 @@
         250.0
       ]
     }
-  },
-  "usage_blocked": {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "flags": {
-        "is_on_ground": false
-      }
-    }
   }
 }
